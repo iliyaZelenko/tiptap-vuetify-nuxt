@@ -1,5 +1,7 @@
 # [tiptap-vuetify](https://github.com/iliyaZelenko/tiptap-vuetify) with Nuxt
 
+Play on Codesanbox: https://codesandbox.io/s/github/iliyaZelenko/tiptap-vuetify-nuxt/tree/master/
+
 ![](https://i.imgur.com/pP78Oaa.png)
 
 ## Build Setup
