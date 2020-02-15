@@ -34,8 +34,8 @@ export default {
    ** Doc: https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    // Module for integration of tiptap-vuetify
-    "~/plugins/TiptapVuetify"
+    // module for integration of tiptap-vuetify
+    { src: '~/plugins/TiptapVuetify', mode: 'client' }
   ],
 
   /*
@@ -54,4 +54,4 @@ export default {
   build: {
     transpile: ['vuetify/lib', "tiptap-vuetify"]
   }
-};
+}

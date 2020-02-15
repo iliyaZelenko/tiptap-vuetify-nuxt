@@ -1,8 +1,12 @@
 <template>
-  <div>
+  <ClientOnly>
     <!-- Use the component in the right place of the template -->
     <tiptap-vuetify v-model="content" :extensions="extensions"/>
-  </div>
+
+    <template #placeholder>
+      Loading...
+    </template>
+  </ClientOnly>
 </template>
 
 <script>
@@ -24,7 +28,7 @@ import {
   HardBreak,
   HorizontalRule,
   History
-} from "tiptap-vuetify";
+} from 'tiptap-vuetify'
 
 export default {
   // specify TiptapVuetify component in "components"
@@ -62,5 +66,5 @@ export default {
       <p>All these <strong>cool tags</strong> are working now.</p>
     `
   })
-};
+}
 </script>

@@ -11,8 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/vuetify": "1.9.0",
+    "@nuxtjs/vuetify": "^1.10.3",
     "nuxt": "2.10.1",
-    "tiptap-vuetify": "2.2.0"
+    "tiptap-vuetify": "^2.11.1"
   }
 }

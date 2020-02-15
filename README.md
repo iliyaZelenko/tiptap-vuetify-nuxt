@@ -68,7 +68,7 @@ export default ({ app }) => {
 And include it (`nuxt.config.js`):
 ```
 plugins: [
-  '~/plugins/TiptapVuetify'
+  { src: '~/plugins/TiptapVuetify', mode: 'client' }
 ],
 ```
 

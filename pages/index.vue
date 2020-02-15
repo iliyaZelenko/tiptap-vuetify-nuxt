@@ -8,17 +8,17 @@
       This's an example of how to use with Nuxt.js
     </v-alert>
 
-    <Editor/>
+    <Editor />
   </section>
 </template>
 
 <script>
-import Editor from "../components/Editor";
+import Editor from '../components/Editor'
 
 export default {
   components: {
     Editor
   }
-};
+}
 </script>
 
